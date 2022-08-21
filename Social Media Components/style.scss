@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+* {
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  font-family: 'Mulish', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: #FFC295;
+}
+.component {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 40px;
+  border-radius: 12px;
+  background-color: white;
+  max-width: 450px;
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    a {
+      color: black;
+      height: 40px;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+      margin-top: 5px;
+      border-radius: 12px;
+      border: 1px solid black;
+      padding: 12px;
+      &:hover {
+        background-color: #FBEBE3;
+      }
+    }
+  }
+}
+
+.component-1 {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 40px;
+  border-radius: 12px;
+  background-color: white;
+  max-width: 500px;
+  .user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    img {
+      width: 83px;
+      height: 83px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    button {
+      margin-left: auto;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      background: #FFC295;
+      padding: 0 20px;
+      border: 1px solid #1A1B38;
+      border-radius: 5px;
+      font-size: 12px;
+      color: #1A1B38;
+    }
+    .info {
+      margin-left: 6px;
+      margin-right: auto;
+      .name {
+        font-weight: bold;
+      }
+      .location1 {
+        display: flex;
+        align-items: center;
+        padding-top: 5px;
+        .names {
+          padding-left: 5px;
+        }
+      }
+     }
+  }
+
+
+}
+
+.component-2 {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 40px;
+  border-radius: 12px;
+  background-color: white;
+  max-width: 500px;
+  ul {
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgba(26,27,56,.14);
+    text-align: center;
+    padding: 30px;
+    li {
+      display: flex;
+      align-items: center;
+      margin-right: 3px;
+      svg {
+        margin-right: 8px;
+      }
+    }
+  }
+  button {
+    padding: 20px;
+    background-color:#FFC295;
+    border: 1px solid black;
+    border-radius: 12px;
+  }
+}
